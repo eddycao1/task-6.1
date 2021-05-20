@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/add_new"
+        android:layout_width="54dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="4dp"
+
+        android:background="@drawable/round_button"
+
+        android:text="+"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.997"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/content7"
+        android:layout_width="194dp"
+        android:layout_height="24dp"
+
+        android:text="Location: Clayton south"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content6" />
+
+    <TextView
+        android:id="@+id/content6"
+        android:layout_width="193dp"
+        android:layout_height="15dp"
+
+        android:text="Quantity : 1 "
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content8" />
+
+    <TextView
+        android:id="@+id/content8"
+        android:layout_width="194dp"
+        android:layout_height="16dp"
+
+        android:text="Pick up times: 2:15"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content2" />
+
+    <TextView
+        android:id="@+id/content22"
+        android:layout_width="194dp"
+        android:layout_height="16dp"
+
+        android:layout_marginTop="128dp"
+        android:text="Pick up times: 7:15 "
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content2" />
+
+    <TextView
+        android:id="@+id/content19"
+        android:layout_width="193dp"
+        android:layout_height="15dp"
+
+        android:layout_marginTop="128dp"
+        android:text="Quantity : 3"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content8" />
+
+    <TextView
+        android:id="@+id/content20"
+        android:layout_width="193dp"
+        android:layout_height="16dp"
+
+        android:layout_marginTop="128dp"
+        android:text="Date:10th / March /2020                           "
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content3" />
+
+    <TextView
+        android:id="@+id/content21"
+        android:layout_width="194dp"
+        android:layout_height="21dp"
+
+        android:layout_marginTop="128dp"
+        android:text="Location: Burwood"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content6" />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="33dp"
+        android:layout_height="31dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+
+    <TextView
+        android:id="@+id/content23"
+        android:layout_width="193dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="132dp"
+
+        android:text="Great food!"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_name3" />
+
+    <TextView
+        android:id="@+id/content2"
+        android:layout_width="193dp"
+        android:layout_height="16dp"
+
+        android:text="Date:26th/March/2021"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content3" />
+
+    <TextView
+        android:id="@+id/recyclerView2"
+        android:layout_width="218dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:text="My post list"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/I1"
+        android:layout_width="149dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="116dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/I2"
+        android:layout_width="149dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="248dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/content3"
+        android:layout_width="193dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="4dp"
+
+        android:text="Amazing food with my love "
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_name3" />
+
+    <TextView
+        android:id="@+id/image_name3"
+        android:layout_width="150dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="116dp"
+        android:text="Date with Ash"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/I1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/image_name"
+        android:layout_width="156dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="248dp"
+        android:text="Meeting w1th team"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/I2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

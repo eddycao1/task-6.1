@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">6.1（1</string>
+
+    <string-array name="spinner">
+        <item>Home</item>
+        <item>Account</item>
+        <item>My list</item>
+    </string-array>
+</resources>
